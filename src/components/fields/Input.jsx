@@ -22,7 +22,7 @@ const Input = ({ label, className, type, name, id, formik }) => {
         type={type}
         name={name}
         id={id || name}
-        className="form-input border border-gray-300 rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+        className="w-full px-4 py-2 border rounded-lg bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:ring-2 focus:ring-blue-500"
         value={value || ""}
         onChange={formik.handleChange}
         onBlur={formik.handleBlur}

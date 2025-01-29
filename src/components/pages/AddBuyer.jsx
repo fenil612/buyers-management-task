@@ -28,7 +28,6 @@ const AddBuyer = () => {
     },
     validationSchema: buyerValidations,
     onSubmit: async (values) => {
-      console.log("values==>", values);
       dispatch(addBuyer(values));
       dispatch(fetchBuyers());
       navigate("/buyers");
@@ -45,7 +44,9 @@ const AddBuyer = () => {
     <div className="min-h-screen bg-gradient-to-bl from-blue-50 via-white to-blue-100 dark:from-gray-800 dark:to-gray-900 flex items-center justify-center px-6 py-10">
       <div className="w-full max-w-4xl bg-white dark:bg-gray-800 rounded-2xl shadow-2xl overflow-hidden">
         <div className="p-8 sm:p-12 bg-gradient-to-r from-blue-600 to-blue-700 text-white text-center">
-          <h1 className="text-3xl font-bold mb-2">Add Buyer Details</h1>
+          <h1 className="text-3xl font-bold mb-2">
+            Buyer&apos;s Management Form
+          </h1>
           <p className="text-sm text-blue-200">
             Fill in the buyer details below to add them to the list.
           </p>
