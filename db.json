@@ -1,0 +1,88 @@
+{
+  "buyers": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "address": "123 Elm Street, Springfield",
+      "phone": "123-456-7890",
+      "buyingType": "Retail",
+      "diamondPurchase": {
+        "diamondType": "Round Cut",
+        "weight": "1.5",
+        "price": 5000
+      },
+      "extraCharges": "200"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "address": "456 Oak Avenue, Metropolis",
+      "phone": "987-654-3210",
+      "buyingType": "Wholesale",
+      "diamondPurchase": {
+        "diamondType": "Princess Cut",
+        "weight": "2.0",
+        "price": 8000
+      },
+      "extraCharges": 200
+    },
+    {
+      "name": "Hector Horton",
+      "email": "rijycaqy@mailinator.com",
+      "address": "Totam qui eaque eaqu",
+      "phone": "+1 (247) 371-7483",
+      "buyingType": "Wholesale",
+      "diamondPurchase": {
+        "diamondType": "Exercitationem rem v",
+        "weight": 67,
+        "price": 253
+      },
+      "extraCharges": 71,
+      "id": 3
+    },
+    {
+      "name": "Cameron Mccray",
+      "email": "mavegaq@mailinator.com",
+      "address": "Consectetur voluptat",
+      "phone": "+1 (145) 425-2932",
+      "buyingType": "Retail",
+      "diamondPurchase": {
+        "diamondType": "Et voluptatem distin",
+        "weight": 95,
+        "price": 862
+      },
+      "extraCharges": 28,
+      "id": 4
+    },
+    {
+      "name": "Lysandra Vinson",
+      "email": "bozax@mailinator.com",
+      "address": "Ad quos tenetur veli",
+      "phone": "+1 (489) 374-4812",
+      "buyingType": "Wholesale",
+      "diamondPurchase": {
+        "diamondType": "Minim quam autem cor",
+        "weight": 59,
+        "price": 123
+      },
+      "extraCharges": 57,
+      "id": 5
+    },
+    {
+      "name": "Ivor Odonnell",
+      "email": "didug@mailinator.com",
+      "address": "Qui id voluptas ut v",
+      "phone": "+1 (318) 912-6544",
+      "buyingType": "Retail",
+      "diamondPurchase": {
+        "diamondType": "Quis aut dolorem et ",
+        "weight": 62,
+        "price": 792
+      },
+      "extraCharges": 43,
+      "id": 6
+    }
+  ]
+}
